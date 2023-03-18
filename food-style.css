@@ -1,0 +1,473 @@
+@import url('reset.css');
+
+body{
+    font-family: arial;
+    background-color: #fff;
+    width: 100%;
+    background-image: url('./img/bodybackground.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+/* ------------------------top */
+
+.top{
+    background-color: #BCEE69;
+    overflow: hidden;
+    margin: 0 auto ;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    width: 450px;
+    display:inline-block;
+}
+
+.logo img{
+    float:left;
+    width: 80px;
+    padding: 10px 10px 10px 15px;
+}
+
+.top-text{
+    margin-top: 30px;
+}
+
+.logo h3{
+    font-size: 24px;
+    color:#525252;
+}
+
+.logo p{
+    font-size: 16px;
+    color:#525252;
+    margin-top: 5px;
+}
+
+.button{
+    float:right;
+    width: 600px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.top-button1{
+    float:right;
+    margin-top: 10px;    
+}
+
+.top-button1 a{
+    text-decoration: none;
+    background-color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #30900E;
+    font-size: 16px;
+    border:#88D84A solid 3px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.top-button1 a:hover{
+    background-color:#88D84A ;
+    color: #fff;
+}
+
+.top-button1 img{
+    width: 14px;
+}
+
+.top-button2{
+    float:right;
+    padding-top:15px;
+}
+
+.top-button2 ul{
+    list-style: none;
+}
+
+.top-button2 li{
+    float:left;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.top-button2 a{
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color:#30900E;
+    display: block;
+    padding: 10px;
+}
+
+.top-button2 a:hover{
+    color:#fff;
+}
+
+/* -------------------------main */
+.main{
+    width: 800px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.foodintroduce{
+    width: 800px;
+    margin: 0 auto 150px;
+    overflow: hidden;
+}
+
+.foodintroducetext{
+    float:left;
+    width: 400px;
+}
+
+.foodintroduce h3{
+    font-size: 28px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#30900E;
+    margin-bottom: 30px;
+}
+
+.foodintroduce p{
+    font-size: 18px;
+    color:#525252;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.6;
+    color:#525252;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.foodintroduce img{
+    width: 300px;
+    float:right;
+}
+
+/* -------------------------------foodlist */
+
+
+/* ----------------------urinarytract */
+
+.urinarytract{
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.urinarytract h4{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#30900E;
+    margin-bottom: 30px;
+}
+
+.urinarytract li{
+    display: inline-block;
+    background-color:#FFFBA6;
+    width: 230px;
+    height: 330px;
+    border-radius: 20px;
+    margin-left: 25px;
+
+}
+
+.urinarytract img{
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.urinarytract h6{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#525252;
+    line-height: 1.6;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.urinarytract p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#AEAEAE;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* -----------------------------control */
+
+.control{
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.control h4{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#30900E;
+    margin-bottom: 30px;
+}
+
+.control li{
+    display: inline-block;
+    background-color:#FFFBA6;
+    width: 230px;
+    height: 330px;
+    border-radius: 20px;
+    margin-left: 25px;
+
+}
+
+.control img{
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.control h6{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#525252;
+    line-height: 1.6;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.control p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#AEAEAE;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* ------------------------------kidney */
+
+.kidney{
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.kidney h4{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#30900E;
+    margin-bottom: 30px;
+}
+
+.kidney li{
+    display: inline-block;
+    background-color:#FFFBA6;
+    width: 230px;
+    height: 330px;
+    border-radius: 20px;
+    margin-left: 25px;
+
+}
+
+.kidney img{
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.kidney h6{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#525252;
+    line-height: 1.6;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.kidney p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#AEAEAE;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* -----------------------stomach */
+
+.stomach{
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.stomach h4{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#30900E;
+    margin-bottom: 30px;
+}
+
+.stomach li{
+    display: inline-block;
+    background-color:#FFFBA6;
+    width: 230px;
+    height: 330px;
+    border-radius: 20px;
+    margin-left: 25px;
+
+}
+
+.stomach img{
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.stomach h6{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#525252;
+    line-height: 1.6;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.stomach p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#AEAEAE;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* -------------------------------------joint */
+
+.joint{
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.joint h4{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#30900E;
+    margin-bottom: 30px;
+}
+
+.joint li{
+    display: inline-block;
+    background-color:#FFFBA6;
+    width: 230px;
+    height: 330px;
+    border-radius: 20px;
+    margin-left: 25px;
+
+}
+
+.joint img{
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.joint h6{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#525252;
+    line-height: 1.6;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.joint p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#AEAEAE;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+/* ----------------------------foot */
+
+.foot{
+    background-color: #BCEE69;
+    margin: 0 auto ;
+    width: 100%;
+    overflow:hidden;
+    height: 120px;
+    position: relative;
+
+}
+
+.infname{
+    color:#525252;
+    line-height: 1.2;
+    margin: 20px 20px 10px;
+}
+
+.infname h3{
+    font-size: 24px;
+}
+
+.infname p{
+    font-size: 14px;
+
+}
+
+.inftext{
+    float:right;
+    position:absolute;
+    top: 20px;;
+    left: 170px;
+    width: 300px;
+    line-height: 1.6;
+    color: #525252;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.inftext img{
+    width: 15px;
+    float:left;
+    margin-right: 10px;
+}
+
+.foot-button ul{
+    float:right;
+    margin-right: 10px;
+}
+
+.foot-button li{
+    float:left;
+    margin-left: 10px;
+}
+
+.foot-button a{
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #30900E;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+}
+
+.foot-button a:hover{
+    color:#fff;
+}
+
