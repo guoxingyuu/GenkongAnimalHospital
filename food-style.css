@@ -402,6 +402,17 @@ h5{
     text-align: center;
 }
 
+.foodlist li:hover{
+    width: 250px;
+    /* height: 350px; */
+    background: #cafa7d;
+    transition: width 1s;
+    
+}
+
+
+
+
 
 /* ----------------------------foot */
 
@@ -410,7 +421,7 @@ h5{
     margin: 0 auto ;
     width: 100%;
     overflow:hidden;
-    height: 120px;
+    height: 130px;
     position: relative;
 
 }
@@ -470,4 +481,14 @@ h5{
 .foot-button a:hover{
     color:#fff;
 }
+
+.tibame p{
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-left: 20px;
+    padding-top: 30px;
+    color:#525252;
+    
+}
+
 

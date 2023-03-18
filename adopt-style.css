@@ -582,7 +582,7 @@ li .next:hover{
     margin: 0 auto ;
     width: 100%;
     overflow:hidden;
-    height: 120px;
+    height: 130px;
     position: relative;
 
 }
@@ -642,4 +642,14 @@ li .next:hover{
 .foot-button a:hover{
     color:#fff;
 }
+
+.tibame p{
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-left: 20px;
+    padding-top: 30px;
+    color:#525252;
+    
+}
+
 
